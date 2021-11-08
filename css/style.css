@@ -1131,6 +1131,9 @@ a {
 }
 
 @media screen and (max-width:992px) {
+    #cursor {
+        display: none;
+    }
     .nav_links li a {
         font-size: 25px;
         margin-top: 0px;
@@ -1216,7 +1219,7 @@ a {
         font-size: 16px;
     }
     .box:hover .hover_box {
-        width: 280px;
+        width: 283px;
         height: 268px;
     }
     .details {
@@ -1247,6 +1250,11 @@ a {
     .grid_boxes::after {
         top: -40px;
         font-size: 17px;
+    }
+    .middle_text h3 {
+        width: 27ch;
+        font-size: 45px;
+        padding: 20px 0;
     }
 }
 
