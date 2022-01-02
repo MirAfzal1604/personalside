@@ -457,7 +457,6 @@ a {
     opacity: 0;
     overflow: hidden;
     transition: ease-in 0.5s;
-    margin-left: -13px;
     background-color: darkcyan;
     width: 0;
     height: 0;
@@ -478,9 +477,9 @@ a {
 .box:hover .hover_box {
     opacity: 1;
     overflow: visible;
-    transform: translateY(-100%);
-    width: 282px;
-    height: 270px;
+    transform: translateY(-100%) translateX(1%);
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -1057,8 +1056,9 @@ a {
         font-size: 18px;
     }
     .box:hover .hover_box {
-        width: 210px;
-        height: 198px;
+        transform: translateY(-100%) translateX(1%);
+        width: 100%;
+        height: 100%;
     }
     .details {
         padding: 110px 0;
@@ -1218,10 +1218,6 @@ a {
     .hover_box p {
         font-size: 16px;
     }
-    .box:hover .hover_box {
-        width: 283px;
-        height: 268px;
-    }
     .details {
         padding: 100px 0;
         flex-direction: column;
@@ -1266,7 +1262,7 @@ a {
         width: 32px;
         height: 42px;
     }
-    .icon_navbar1 { 
+    .icon_navbar1 {
         position: absolute;
         top: 75px;
         left: 25px;
@@ -1356,10 +1352,6 @@ a {
     }
     .hover_box p {
         font-size: 16px;
-    }
-    .box:hover .hover_box {
-        width: 105%;
-        height: 200px;
     }
     .divide_grid {
         padding: 70px 0;
@@ -1460,10 +1452,6 @@ a {
     }
     .hover_box p {
         font-size: 16px;
-    }
-    .box:hover .hover_box {
-        width: 108%;
-        height: 140px;
     }
     .details {
         padding: 60px 0;
@@ -1632,9 +1620,6 @@ a {
     }
     .hover_box p {
         font-size: 14px;
-    }
-    .box:hover .hover_box {
-        width: 111%;
     }
     .details {
         padding: 40px 0;
